@@ -26,5 +26,5 @@ app.get("/check/:lottoBarcode", function (req, res) {
 
 
 app.listen(port, () => {
-  console.log("Start server at port: " + port);
+  console.log("Start server at port: http://localhost:" + port);
 });
